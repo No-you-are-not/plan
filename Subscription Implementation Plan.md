@@ -220,7 +220,3 @@ Seats = number of active users in an organization with app-relevant roles.
 | Stripe/RevenueCat out of sync      | Single source of truth in our DB; both write via webhooks |
 
 ---
-
-## Summary
-
-This plan adds subscription billing to 5i Factory Portal with **zero impact on existing customers**. It supports both web (Stripe) and mobile (RevenueCat/Apple) payments, scales pricing by seats, and is implemented incrementally across 5 phases — each delivering standalone value.
