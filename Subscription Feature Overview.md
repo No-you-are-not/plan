@@ -17,7 +17,7 @@ Subscriptions are **per organization**, not per user. One subscription controls 
 
 > **Note:** Prices and limits are configured in the **Stripe Dashboard** on each Price object's metadata (`maxSeats`, `maxTeams`). They are NOT hardcoded in the app — changing them in Stripe updates the app automatically.
 
-![[Screenshot 2026-03-20 at 10.39.04.png]]
+![Subscription Tiers](Screenshot%202026-03-20%20at%2010.39.04.png)
 
 ---
 
@@ -52,7 +52,7 @@ User fills sign-up form → Creates Cognito account + MongoDB user + Organizatio
 **What the user sees:**
 - Full-screen paywall with plan cards (Starter, Professional)
 
-![[Screenshot 2026-03-20 at 10.50.03.png]]
+![Paywall Screen](Screenshot%202026-03-20%20at%2010.50.03.png)
 ### 3. Subscribing (Stripe Checkout)
 
 ```
@@ -64,7 +64,7 @@ User clicks "Subscribe" on a plan → Redirected to Stripe Checkout
                                    → Paywall gone — app loads normally
 ```
 
-![[Screenshot 2026-03-20 at 10.52.44.png]]
+![Stripe Checkout](Screenshot%202026-03-20%20at%2010.52.44.png)
 
 ### 4. Subscription Management Page (`/subscription`)
 
@@ -84,12 +84,12 @@ Accessible from the sidebar (admin users only).
 
 ## Enterprise
 
-![[Screenshot 2026-03-20 at 10.54.15.png]]
+![Enterprise](Screenshot%202026-03-20%20at%2010.54.15.png)
 
 ## Professional
 
-![[Screenshot 2026-03-20 at 10.55.04.png]]
-![[Screenshot 2026-03-20 at 10.56.08.png]]
+![Professional 1](Screenshot%202026-03-20%20at%2010.55.04.png)
+![Professional 2](Screenshot%202026-03-20%20at%2010.56.08.png)
 
 ### 5. Upgrade 
 
